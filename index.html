@@ -59,9 +59,55 @@
         <div class="modal">
             <button class="close-btn" type="button" data-modal-close>
                 <svg class="btn-icon" width="18px" height="18px">
-                    <use href="./Images/close-btn.svg#icon-close-black-18dp-2-1"></use>
+                    <use href="./Images/icon.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
+    <form class="modal-registration">
+        <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
+        <label class="modal-input">
+            Imię
+            <span class="modal-label">    
+            <input class="modal-content" type="text" name="username"/>
+            <svg class="modal-icon" width="18px" height="18px">
+                <use href="./Images/icon.svg#icon-person-black-18dp-1"></use>
+            </svg>
+            </span>
+        </label>
+        <label class="modal-input">
+            Telefon
+            <span class="modal-label">
+            <input class="modal-content" type="tel" name="phone_number"/>
+            <svg class="modal-icon" width="18px" height="18px">
+                <use href="./Images/icon.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+            </span>
+        </label>
+        <label class="modal-input">
+            Email
+            <span class="modal-label">
+            <input class="modal-content" type="email" name="email">
+            <svg class="modal-icon" width="18px" height="18px">
+                <use href="./Images/icon.svg#icon-email-black-18dp-1"></use>
+            </svg>
+            </span>
+        </label>
+        <label class="modal-input">
+            Komentarz
+            <textarea class="modal-comment" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+        </label>
+        <div class="policy-agreement">
+            <input class="policy-icon" type="checkbox">
+            <label class="policy">
+            Oświadczam iż akceptuję
+             <a href="#">Regulamin</a> 
+             i
+             <a href="#"> Politykę Prywatności.</a>
+            </label>
+        </div>
+        <label class="modal-submit">
+            <button type="submit">Wyślij</button>
+        </label>
+    </form>
         </div>
     </div>
 </div>
@@ -389,7 +435,12 @@
     Zapisz się do newslettera
         <input class="email-newsletter" type="email" name="email" placeholder="E-mail" />
     </label>
-        <button class="btn-newsletter" type="button">Zapisz się</button>
+        <button class="btn-newsletter" type="button">
+            Zapisz się
+            <svg class="icon-send" width="24px" height="24px">
+                    <use href="./Images/icon.svg#icon-icon-send"></use>
+                </svg>
+        </button>
     </form>
     </div>
     </div>
