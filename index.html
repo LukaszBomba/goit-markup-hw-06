@@ -95,19 +95,18 @@
             Komentarz
             <textarea class="modal-comment" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
         </label>
-        <div class="policy-agreement">
-            <input class="policy-icon" type="checkbox">
-            <label class="policy">
+        <form class="modal-form" action="#">
+            <input id="user-policy" class="modal-form-policy visually-hidden " type="checkbox" name="policy" value="accept-policy" >
+        <label for="user-policy" class="modal-form-policy-text">
             Oświadczam iż akceptuję
              <a href="#">Regulamin</a> 
              i
              <a href="#"> Politykę Prywatności.</a>
-            </label>
-        </div>
-        <label class="modal-submit">
-            <button type="submit">Wyślij</button>
         </label>
-    </form>
+        </form>
+        <label class="modal-submit">
+            <button class="order-btn" type="submit">Wyślij</button>
+        </label>
         </div>
     </div>
 </div>
